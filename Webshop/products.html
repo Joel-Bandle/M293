@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameShop – Spiele</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">GameShop</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Spiele</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CSS-Only Filter -->
+  <input type="radio" name="filter" id="all" checked hidden>
+  <input type="radio" name="filter" id="action" hidden>
+  <input type="radio" name="filter" id="rpg" hidden>
+  <input type="radio" name="filter" id="adventure" hidden>
+  <input type="radio" name="filter" id="indie" hidden>
+  <input type="radio" name="filter" id="strategy" hidden>
+
+  <section class="category-menu">
+    <label for="all" class="category-button">Alle</label>
+    <label for="action" class="category-button">Action</label>
+    <label for="adventure" class="category-button">Adventure</label>
+    <label for="rpg" class="category-button">RPG</label>
+    <label for="indie" class="category-button">Indie</label>
+    <label for="strategy" class="category-button">Strategie</label>
+  </section>
+
+  <section class="product-grid">
+    <!-- RPG Games -->
+    <div class="product-card rpg">
+      <a href="products/elden-ring.html">
+        <img src="images/elden-ring.jpg" alt="Elden Ring">
+        <div class="card-content">
+          <h3>Elden Ring</h3>
+          <p class="price">€59.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card rpg">
+      <a href="products/witcher3.html">
+        <img src="images/witcher3.jpg" alt="The Witcher 3: Wild Hunt">
+        <div class="card-content">
+          <h3>The Witcher 3: Wild Hunt</h3>
+          <p class="price">€29.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card rpg">
+      <a href="products/dark-souls3.html">
+        <img src="images/dark-souls3.jpg" alt="Dark Souls 3">
+        <div class="card-content">
+          <h3>Dark Souls 3</h3>
+          <p class="price">€39.99</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Action Games -->
+    <div class="product-card action">
+      <a href="products/cyberpunk2077.html">
+        <img src="images/cyberpunk2077.jpg" alt="Cyberpunk 2077">
+        <div class="card-content">
+          <h3>Cyberpunk 2077</h3>
+          <p class="price">€39.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card action">
+      <a href="products/god-of-war.html">
+        <img src="images/god-of-war.jpg" alt="God of War">
+        <div class="card-content">
+          <h3>God of War</h3>
+          <p class="price">€44.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card action">
+      <a href="products/halo-infinite.html">
+        <img src="images/halo-infinite.jpg" alt="Halo Infinite">
+        <div class="card-content">
+          <h3>Halo Infinite</h3>
+          <p class="price">€39.99</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="product-card action">
+      <a href="products/battlefront2.html">
+        <img src="images/battlefront2.jpg" alt="Star Wars Battlefront 2">
+        <div class="card-content">
+          <h3>Star Wars Battlefront 2</h3>
+          <p class="price">€29.99</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Adventure Games -->
+    <div class="product-card adventure">
+      <a href="products/hogwarts-legacy.html">
+        <img src="images/hogwarts-legacy.jpg" alt="Hogwarts Legacy">
+        <div class="card-content">
+          <h3>Hogwarts Legacy</h3>
+          <p class="price">€59.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card adventure">
+      <a href="products/sea-of-thieves.html">
+        <img src="images/sea-of-thieves.jpg" alt="Sea of Thieves">
+        <div class="card-content">
+          <h3>Sea of Thieves</h3>
+          <p class="price">€34.99</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Indie Games -->
+    <div class="product-card indie">
+      <a href="products/cuphead.html">
+        <img src="images/cuphead.jpg" alt="Cuphead">
+        <div class="card-content">
+          <h3>Cuphead</h3>
+          <p class="price">€19.99</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="product-card indie">
+      <a href="products/balatro.html">
+        <img src="images/balatro.jpg" alt="Balatro">
+        <div class="card-content">
+          <h3>Balatro</h3>
+          <p class="price">€14.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card indie">
+      <a href="products/celeste.html">
+        <img src="images/celeste.jpg" alt="Celeste">
+        <div class="card-content">
+          <h3>Celeste</h3>
+          <p class="price">€19.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card indie">
+      <a href="products/dead-cells.html">
+        <img src="images/dead-cells.jpg" alt="Dead Cells">
+        <div class="card-content">
+          <h3>Dead Cells</h3>
+          <p class="price">€24.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card indie">
+      <a href="products/hollow-knight.html">
+        <img src="images/hollow-knight.jpg" alt="Hollow Knight">
+        <div class="card-content">
+          <h3>Hollow Knight</h3>
+          <p class="price">€14.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card indie">
+      <a href="products/the-binding-of-isaac-rebirth.html">
+        <img src="images/the-Binding-of-Isaac-Rebirth.jpg" alt="The Binding of Isaac: Rebirth">
+        <div class="card-content">
+          <h3>The Binding of Isaac: Rebirth</h3>
+          <p class="price">€14.99</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="product-card indie">
+      <a href="products/geometry-dash.html">
+        <img src="images/geometry-dash.jpg" alt="Geometry Dash">
+        <div class="card-content">
+          <h3>Geometry Dash</h3>
+          <p class="price">€3.99</p>
+        </div>
+      </a>
+    </div>
+    
+    <div class="product-card indie">
+      <a href="products/nine-sols.html">
+        <img src="images/nine-sols.jpg" alt="Nine Sols">
+        <div class="card-content">
+          <h3>Nine Sols</h3>
+          <p class="price">€27.99</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Strategy Games -->
+    <div class="product-card strategy">
+      <a href="products/anno-1800.html">
+        <img src="images/anno-1800.jpg" alt="Anno 1800">
+        <div class="card-content">
+          <h3>Anno 1800</h3>
+          <p class="price">€59.99</p>
+        </div>
+      </a>
+    </div></section>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-left">
+      <h3>GameShop</h3>
+      <p>Die besten PC-Spiele für echte Gamer</p>
+    </div>
+    
+    <div class="footer-center">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Spiele</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 GameShop • Alle Rechte vorbehalten</p>
+  </div>
+</footer>
+
+</body>
+</html>
